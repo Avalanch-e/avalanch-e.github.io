@@ -1,0 +1,106 @@
+// ─────────────────────────────────────────────────────────────
+//  AVALANCH-E — POSTS
+//
+//  To add a new post: copy one of the blocks below, edit it,
+//  and paste it at the top of the POSTS array (order doesn't
+//  matter — the site sorts by dateSort automatically).
+//
+//  Fields:
+//    id        — unique URL slug, lowercase, hyphens only
+//    dateSort  — 'YYYY-MM-DD' (controls sort order, always use this format)
+//    dateLabel — how the date is displayed, e.g. 'March 14, 2026'
+//    title     — post title
+//    excerpt   — one-line summary shown on the home page
+//    paragraphs— array of strings, one per paragraph
+//
+//  To edit an existing post, just change the text in place.
+//  To delete a post, delete its whole { ... } block.
+//
+//  Straight quotes (') inside text must be escaped like this: \'
+//  Regular double quotes (") inside text are fine as-is.
+// ─────────────────────────────────────────────────────────────
+
+const POSTS = [
+  { id: 'cool-memories-i', dateSort: '2026-03-14', dateLabel: 'March 14, 2026',
+    title: 'Cool Memories I',
+    excerpt: 'Fragments on simulation, seduction, and the death of the real.',
+    paragraphs: [
+      'The obscenity of our age is not that everything is hidden, but that everything is exposed — the pornography of total visibility, where even the secret has been made to perform its secrecy for an audience.',
+      'We were promised liberation and were given transparency instead, which is a much crueler thing. A secret can be kept. A performance of having nothing to hide can never rest.',
+      'Truth has not been suppressed; it has been multiplied past the point of use, like a currency printed until it buys nothing. Hyperinflation of the fact.',
+      'Seduction is the only intelligence left to us. Explanation is for those who have already lost.',
+      'The map preceded the territory a long time ago. What we now mistake for reality is the territory\'s attempt to resemble its own map, badly, and gratefully.'
+    ]
+  },
+  { id: 'on-authenticity', dateSort: '2026-01-03', dateLabel: 'January 3, 2026',
+    title: 'Against Authenticity',
+    excerpt: 'The self that must announce itself as real has already lost the argument.',
+    paragraphs: [
+      'Authenticity is the last mask that claims not to be one. Every other mask admits its status; this one insists it is the face.',
+      'To be told "just be yourself" is to receive an order disguised as a permission. Try refusing it and discover how little permission was actually on offer.',
+      'The confessional mode — the diary, the personal essay, the deathbed sincerity performed at thirty — is not the opposite of performance. It is performance that has learned to despise its own name.',
+      'I trust the liar who knows he is lying more than the sincere man who has simply automated his sincerity. At least the liar is still awake.'
+    ]
+  },
+  { id: 'on-the-death-of-god-and-other-good-news', dateSort: '2025-11-02', dateLabel: 'November 2, 2025',
+    title: 'On the Death of God, and Other Good News',
+    excerpt: 'We did not kill him. We simply stopped needing an alibi.',
+    paragraphs: [
+      'God did not die of an argument. No god ever has. He died of irrelevance, which is a much slower and more humiliating death than the one philosophy likes to stage for him.',
+      'What frightens the moralist is not that god is dead but that his absence changed nothing on Tuesday morning. The bakery opened. The trains ran late. Meaning did not evacuate the premises — it simply stopped waiting for a landlord.',
+      'Those who mourn the death of god are usually mourning the death of an excuse: the excuse not to have invented their own values, their own severities, their own reasons to rise before noon.',
+      'I do not ask you to become an atheist. I ask you to notice how much work the word "sin" was doing for you, and whether you are willing to do that work yourself now.'
+    ]
+  },
+  { id: 'on-cruelty-as-a-form-of-honesty', dateSort: '2025-07-19', dateLabel: 'July 19, 2025',
+    title: 'On Cruelty as a Form of Honesty',
+    excerpt: 'Kindness is often just cowardice with better public relations.',
+    paragraphs: [
+      'Every ethics of niceness is secretly an ethics of avoidance: better to withhold the true sentence than risk the discomfort of having said it.',
+      'I do not recommend cruelty. I recommend noticing how much of what passes for kindness is simply the fear of consequence wearing a gentler word.',
+      'The cruelest man I ever met told the truth so plainly that people mistook his honesty for malice, because they had never encountered the former unaccompanied by flattery and assumed it must be the latter.',
+      'A compliment costs nothing and is therefore worth exactly that. Save your praise for what has actually earned the risk of your disapproval.'
+    ]
+  },
+  { id: 'notes-on-boredom-as-revolt', dateSort: '2025-04-08', dateLabel: 'April 8, 2025',
+    title: 'Notes on Boredom as Revolt',
+    excerpt: 'The bored man is the last person the algorithm cannot reach.',
+    paragraphs: [
+      'Boredom used to be a private failure. Now it is nearly an act of resistance — the one remaining state the feed cannot monetize, because it produces no click, no scroll, no data worth harvesting.',
+      'To be entertained continuously is to be governed continuously. The tyrant\'s oldest trick was bread and circuses; ours does not even require the bread.',
+      'I have come to suspect my own restlessness. Each time I reach for the device out of boredom, I am not fleeing an empty moment — I am fleeing the only moment in which I might have noticed something true about my life.',
+      'Cultivate boredom the way a monk cultivates silence. It is not empty. It is simply not for sale yet.'
+    ]
+  },
+  { id: 'aphorisms-against-the-thesis', dateSort: '2025-01-22', dateLabel: 'January 22, 2025',
+    title: 'Aphorisms Against the Thesis',
+    excerpt: 'A short defense of the fragment over the argument.',
+    paragraphs: [
+      'An argument tries to survive its critics. An aphorism does not care whether it survives — it has already said the thing and left the room.',
+      'The academic paper is a coffin built slowly, with footnotes for nails. I would rather leave a wound than a monument.',
+      'Systems are for those afraid of being caught contradicting themselves. I contradict myself constantly. It is the only sign I am still thinking rather than reciting.',
+      'A truth that requires forty pages to defend was probably not true enough to begin with. Say the sharp thing. Let the reader do the forty pages, if they must.',
+      'I do not build. I quarry. Let the masons come later, if they dare, and if the stone lets them.'
+    ]
+  },
+  { id: 'on-the-obscenity-of-optimization', dateSort: '2024-09-30', dateLabel: 'September 30, 2024',
+    title: 'On the Obscenity of Optimization',
+    excerpt: 'The self as a spreadsheet is the final joke played on the soul.',
+    paragraphs: [
+      'We have arrived at a civilization that measures the sunrise in lumens and calls the accounting "mindfulness."',
+      'Optimization is not a neutral method applied to a life; it is a metaphysics smuggled in through the back door of a to-do list, one that quietly decides in advance that the good life is the efficient one.',
+      'The most radical thing available to a person today may be to waste an afternoon on purpose, contributing nothing, producing nothing, and to feel no need to caption it.',
+      'Every habit tracker is a small confession booth with no priest and no absolution — only a streak, and the terror of breaking it.'
+    ]
+  },
+  { id: 'on-forgetting-well', dateSort: '2024-05-11', dateLabel: 'May 11, 2024',
+    title: 'On Forgetting Well',
+    excerpt: 'Memory is not a virtue. It is a habit we have failed to interrogate.',
+    paragraphs: [
+      'We have built a culture that treats forgetting as a moral failure and remembering as a moral achievement, without ever asking whether a thing deserved to be kept.',
+      'The archive is not innocent. It preserves what power finds useful to preserve, and calls the rest negligence.',
+      'I have forgotten people I once thought I could not live without, and lived. This is either a scandal or the entire point; I no longer bother deciding which.',
+      'To forget on purpose — to let a wound close without erecting a monument over it — is not betrayal. It is simply refusing to let the dead do more governing than the living.'
+    ]
+  }
+];

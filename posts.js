@@ -150,6 +150,7 @@ const POSTS = [
       'Once I finally get off the couch it’s over for you mfs.',
       ' ',
       '‘Human rights’ is an elusive term for many reasons. Access to the internet was originally a scientific rarity, then a privilege, then a ubiquitous tool, and the internet has become so entangled in life that navigating many facets of the world without it seems grossly inconvenient. Applying for a job, submitting legal documents, etc. is now almost entirely dependent on the internet. So lack of access to the hybrid material and immaterial entity has social, political, and emotional repercussions. To what extent must a lack of access to something constitute a harm in order to generate discussions of rights to it? The right to internet access appears normative. But perhaps there is something underneath this plea. Perhaps there is a form, with internet as it’s content, that gives one an innate desire to pose an argument in the realm of rights. Others having a lack which can potentially mar their social, emotional, mental, physical, political, ideological health raises concerns. However, one could look at the abundance of maladies people face and argue that the addition of any entity with ameliorative potential makes it worthy of right-hood.',
+      ' ',
       'People are worthy of having all of their needs and wants met given that they can do so in a healthy way.',
     ]
   }

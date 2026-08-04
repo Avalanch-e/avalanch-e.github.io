@@ -85,7 +85,7 @@ const POSTS = [
     },
   { id: '2025-shitpost-supercut', dateSort: '2025-12-30', dateLabel: 'December 30, 2025',
     title: '2025 Shitpost Supercut',
-    excerpt: 'A short defense of the fragment over the argument.',
+    excerpt: 'Universe, please do me a solid.',
     paragraphs: [
       'Identity politics circling the toilet bowl',
       '',
@@ -183,7 +183,7 @@ const POSTS = [
       '',
       'I am Tony Soprano',
       '',
-      'Everyone in my generation has overdosed on self awareness ',
+      'Everyone in my generation has overdosed on self awareness',
       '',
       'If electoralism worked, the will of the people would have been properly expressed ages ago. ',
       '',
@@ -234,7 +234,7 @@ const POSTS = [
      },
   { id: '2024-shitpost-supercut', dateSort: '2024-12-30', dateLabel: 'December 30, 2024',
     title: '2024 Shitpost Supercut',
-    excerpt: 'A short defense of the fragment over the argument.',
+    excerpt: 'The global village was condemned due to code violations.',
     paragraphs: [
       'Just let me live and die this stupid suburban life. Let me act like /pretend I live outside of history, live outside of time. In a sea of houses with no sidewalks. Ebbing sams clubs flowing costcos. Seasons pass like scrapbooks and themed parties. Toothpaste on sale and crock pots of plastic cheese recipes buffalo chicken dip.',
       '',
@@ -327,7 +327,7 @@ const POSTS = [
   },
   { id: 'on-the-obscenity-of-optimization', dateSort: '2023-12-30', dateLabel: 'December 30, 2023',
     title: '2023 Shitpost Supercut',
-    excerpt: 'The self as a spreadsheet is the final joke played on the soul.',
+    excerpt: 'Much of what has been written under the banner of philosophy deserves to be thrown into the trash.',
     paragraphs: [
       'My suffering is pavement',
       ' ',
@@ -418,7 +418,7 @@ const POSTS = [
   },
   { id: '2022-shitpost-supercut', dateSort: '2022-12-30', dateLabel: 'December 30, 2022',
     title: '2022 Shitpost Supercut',
-    excerpt: 'Memory is not a virtue. It is a habit we have failed to interrogate.',
+    excerpt: 'Ladies and germs, there will be no cthulucene.',
     paragraphs: [
       'The next person who says they’re busy gets kicked in the urethra.',
       ' ',

@@ -72,15 +72,14 @@ const POSTS = [
       'Cultivate boredom the way a monk cultivates silence. It is not empty. It is simply not for sale yet.'
     ]
   },
-  { id: 'aphorisms-against-the-thesis', dateSort: '2025-01-22', dateLabel: 'January 22, 2025',
-    title: 'Aphorisms Against the Thesis',
-    excerpt: 'A short defense of the fragment over the argument.',
+  { id: 'notes-on-roy-porters-baudrillard-history-hysteria-and-consumption', dateSort: '2025-12-07', dateLabel: 'December 07, 2025',
+    title: 'Notes on Roy Porters "Baudrillard: History, Hysteria and Consumption"',
+    excerpt: 'Capitalism as a political-economic system born from mercantilism has been described in terms of mind and body for centuries. This does not diminish Baudrillard’s claims – on the contrary, it better situates them.',
     paragraphs: [
-      'An argument tries to survive its critics. An aphorism does not care whether it survives — it has already said the thing and left the room.',
-      'The academic paper is a coffin built slowly, with footnotes for nails. I would rather leave a wound than a monument.',
-      'Systems are for those afraid of being caught contradicting themselves. I contradict myself constantly. It is the only sign I am still thinking rather than reciting.',
-      'A truth that requires forty pages to defend was probably not true enough to begin with. Say the sharp thing. Let the reader do the forty pages, if they must.',
-      'I do not build. I quarry. Let the masons come later, if they dare, and if the stone lets them.'
+      'Baudrillard observes that traditional meanings have lost all anchoring points. Baudrillard claims that the 20th century saw laws of production become obsolete; consumption became the hegemon. Meaning, signs, the code, all self-referential. “World of objects and of needs…world of general hysteria” Porter agrees but claims this hysteria has occurred multiple times throughout history during mercantilism/capitalism (but also agrees that the 20th cent. mutation is unique and unprecedented). Capitalism was not only conceptualized as mechanical, cold, and logical during its times – myriad medical metaphors occur across centuries. Porter highlights psychosomatic ailments of developing/developed societies. Most notably, the interplay of consumption (of goods and services) and consumption (the disease now known as tuberculosis).  “Diseases of capitalism” co-occur with capitalism. “Yesterday’s tomorrows suggest that we have often been here before.”',
+      'Some remarks: Porter is correct in that capitalism in the public imagination is retroactively understood as cold, mechanical, blind, and numerical despite thorough documentation that it has been conceived of in myriad ways. Capitalism as a political-economic system born from mercantilism has been described in terms of mind and body for centuries. This does not diminish Baudrillard’s claims – on the contrary, it better situates them. The twentieth century forward has manifested a previously unseen mutation of capitalism. This is something many anticipated (that capitalism itself would evolve, mutate, self-infirm and self-recuperate, etc.), but the dislodging of symbols is not something that analysts thought would come to be. This is where Baudrillard analysis rings most true.',
+      'One may wonder whether more recent discourse on the reconfigurations of capitalism falls within this trend. Technofeudalism (Varoufakis), platform capitalism, and plat-farming (Rouselle) are among the neologisms deployed to describe a transition from any semblance of a genuine marketplace (and marketplace logic) inherent to capitalism. Whether technofeudalism is a salient subject worthy of concern is another matter. Regardless, the move toward a new vocabulary to describe the current permutations and movements of capitalism as a political-economic system further fall in line with Porter’s observations about its historical repertoire of descriptions.',
+      '“Yesterday’s tomorrows suggest that we have often been here before.” This rings true on primary and secondary level analyses of capitalism as event, process, subject, and object.'
     ]
     },
   { id: '2025-shitpost-supercut', dateSort: '2025-12-30', dateLabel: 'December 30, 2025',

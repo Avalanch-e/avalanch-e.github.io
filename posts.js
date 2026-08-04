@@ -83,7 +83,7 @@ const POSTS = [
       'I do not build. I quarry. Let the masons come later, if they dare, and if the stone lets them.'
     ]
     },
-  { id: '2025 shitpost supercut', dateSort: '2025-12-30', dateLabel: 'December 30, 2025',
+  { id: '2025-shitpost-supercut', dateSort: '2025-12-30', dateLabel: 'December 30, 2025',
     title: '2025 Shitpost Supercut',
     excerpt: 'A short defense of the fragment over the argument.',
     paragraphs: [
@@ -232,7 +232,7 @@ const POSTS = [
       'Grinding rails, sniffing lines louder than cocaine snausages'
       ]
      },
-  { id: '2024 Shitpost Supercut', dateSort: '2024-12-30', dateLabel: 'December 30, 2024',
+  { id: '2024-shitpost-supercut', dateSort: '2024-12-30', dateLabel: 'December 30, 2024',
     title: '2024 Shitpost Supercut',
     excerpt: 'A short defense of the fragment over the argument.',
     paragraphs: [
